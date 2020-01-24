@@ -1,0 +1,51 @@
+html 
+    cursor: url(../img/mata_mosquito.png) 30 30, auto
+    
+body
+    background-image: url(../img/bg.jpg) 
+    background-repeat: no-repeat
+    background-size: cover
+    height: 100vh
+    overflow-y: hidden
+
+.mosquito 
+    width: 50px
+    height: 50px
+
+.mosquito-pequeno 
+    width: 70px
+    height: 70px
+
+.mosquito-medio 
+    width: 90px
+    height: 90px
+
+.mosquito-grande 
+    width: 120px
+    height: 120px
+
+//This class sideA is no necessary, because,  the scaleX(1) is the original scale of our img.
+.sideA
+    transform: scaleX(1)
+
+.sideB
+    transform: scaleX(-1)
+
+//Settings for the Game Panel
+.painel
+    position: absolute
+    width: 190px
+    padding: 10px
+    background: #ffffff
+    border-top: solid 1px #fff
+    opacity: 0.7
+    bottom: 0px
+    left: 0px
+
+.vidas 
+    float: left
+
+.contagem
+    float: left
+    font-size: 20px
+    font-weight: 900
