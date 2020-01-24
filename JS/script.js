@@ -2,7 +2,7 @@
 var valueHeight = 0
 var valueWidth = 0
 var life = 1
-var time = 10
+var time = 20
 
 //Variable to recovery the query string on the url
 var level = window.location.search
@@ -38,7 +38,7 @@ var chronometer = setInterval(function() {
         clearInterval(create_Mosquito) //Cleaning the setINterval to create mosquitos in the html.
 
         //window.location to the home.html
-        window.location.href = "../victory.html"
+        window.location.href = "victory.html"
 
     } else {
 
@@ -70,7 +70,7 @@ function randomPosition() {
         if (life > 3) {
 
             //Redirection through the BOM.
-            window.location.href = "../game_over.html"
+            window.location.href = "game_over.html"
 
         } else {
 
@@ -172,7 +172,7 @@ function randomSide() {
 //Function to the event onclick for restart the game.
 function restartGame() {
 
-    window.location.href = "../start.html"
+    window.location.href = "start.html"
 
 }
 
